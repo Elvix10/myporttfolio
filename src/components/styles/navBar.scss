@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.navbar{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    align-content: space-between;
+    
+  }
+
+.navbar-container{
+    display: flex;
+    width: 20%;
+  
+    justify-content: center;
+    
+    a{
+       font-family: 'Antonio',sans-serif;
+       text-decoration: none;
+        margin: auto;
+        color: white;
+        font-weight: 100;
+        
+    }
+    
+    
+}
+
+
+    

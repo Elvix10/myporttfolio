@@ -1,12 +1,16 @@
-
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css'
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import Navbar from "./components/navbar"
+import Home from './components/home'
 
 function App() {
   return (
-   <h2>starting
 
-   </h2>
+    <Router>
+
+      <Navbar/>
+      <Home/>
+    </Router>
+   
   );
 }
 

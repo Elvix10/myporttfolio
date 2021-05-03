@@ -6,6 +6,7 @@ body{
 
 
 .navbar{
+    position: fixed;
     background-color: black;
     height: 50px;
     width: 100%;
@@ -13,22 +14,23 @@ body{
     align-items: center;
     justify-content: flex-end;
     align-content: space-between;
+    z-index: 999;
+    opacity: 7;
+    
     
   }
 
 .navbar-container{
-    display: flex;
-    width: 20%;
-    
-  
+    display: flex;   
     justify-content: center;
-    
+  
     a{
        font-family: 'Antonio',sans-serif;
        text-decoration: none;
         margin: auto;
         color: white;
         font-weight: 100;
+        margin: 20px;
         
     }
     
